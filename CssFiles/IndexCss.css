@@ -1,0 +1,22 @@
+
+.S {
+    color: blue;
+}
+
+.Name {
+    color: blueviolet;
+    border-color: brown;
+    border-radius: 20%;
+    border-width: 10px;
+    font-size: medium;
+}
+
+.form {
+    
+    background-color: white;
+    filter: 50%
+}
+
+body{
+    background-color: rgb(116, 201, 127);
+}
