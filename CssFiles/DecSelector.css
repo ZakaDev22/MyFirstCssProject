@@ -1,0 +1,29 @@
+
+
+
+h1 b {
+
+
+    font-size: larger;
+    color: cornflowerblue;
+
+}
+
+
+.ha {
+
+    color: blueviolet;
+}
+
+
+.z {
+    color: chartreuse;
+    font-size: xx-large;
+}
+
+.s > h5 {
+    color: burlywood;
+   font-size: xx-large;
+   font-weight: 200;
+   outline-color: blueviolet;
+}

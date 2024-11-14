@@ -1,0 +1,43 @@
+
+
+h1 {
+    border: red 10px solid ;
+    margin: 50px;
+    padding: 10px 15px;
+    color: blue;
+}
+
+.form1-Title {
+
+    color: rgb(59, 116, 48);
+    width: fit-content;
+    font-size: medium;
+    position: -ms-page;
+}
+
+.Name {
+    border: 10px;
+    margin: 10px;
+    font-size: medium;
+    font-style: italic;
+}
+
+.Pass {
+    border: 10px;
+    margin: 10px;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+#lg {
+    background-color: transparent;
+    font-size: medium;
+    font-size: x-large;
+    border-block: unset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: rgb(166, 119, 247) solid 10px;
+    position: relative;
+    mask-position: 10px;
+}
