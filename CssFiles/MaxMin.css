@@ -1,0 +1,11 @@
+
+.width {
+    width: 350px;
+     min-width: 50px;
+    background-color: aqua;
+}
+
+.maxwith {
+    background-color: rgb(13, 71, 111);
+    max-width: 350px;
+}
