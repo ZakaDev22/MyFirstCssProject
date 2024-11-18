@@ -1,0 +1,16 @@
+
+
+.Text-Transform {
+    direction: rtl;
+}
+
+
+#Text {
+    border: 5px yellowgreen dashed;
+    background-color: gray;
+    backdrop-filter: 10%;
+    color: brown;
+    padding: 10px 15px;
+    margin: 10px;
+    text-align: center;
+}
