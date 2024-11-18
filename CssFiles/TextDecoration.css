@@ -1,0 +1,12 @@
+
+
+h1 {
+    padding: 10px;
+    margin: 20px;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #EEE;
+    color: darkblue;
+    font-family: cursive;
+    text-decoration: underline rgba(205, 71, 50, 0.648) wavy;
+}

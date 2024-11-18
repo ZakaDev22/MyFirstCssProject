@@ -1,0 +1,48 @@
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline  5px dotted rgb(190, 255, 105);
+    background-color: rgb(234, 133, 0);
+    padding: 15px;
+    margin: 20px;
+
+    font-family: cursive;
+    text-shadow: 5px 5px 3px black;
+
+    border: 20px black solid;
+    border-radius: 20px;
+}
+
+div {
+    background-color: aquamarine;
+    width: 50%;
+    height: 500px;
+    margin-left: 25%;
+    border: 1px black dashed;
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 3px black ,
+                -5px -5px 5px rgb(0, 0, 0) 
+}
+
+p {
+    padding: 20px;
+}
+
+pre {
+        color: rgb(62, 3, 3);
+        text-align: center;
+        font-size: larger;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+    
+        font-family: cursive;
+        text-shadow: 5px 5px 3px rgb(205, 42, 42);
+    
+        border: 5px black solid;
+        border-radius: 20px;
+}
