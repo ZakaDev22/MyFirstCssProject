@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght,ROND@500,0..100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
+ /* <uniquifier>: Use a unique and descriptive class name */
+ /* <roundness>: Use a value from 0 to 100 */
+
+.doto-uniquifier {
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px red;
+    background-attachment:local;
+    font-family: "Doto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-variation-settings: "ROND";
+}
+
+.bokor-regular {
+    border: 5px red dashed;
+    background-color: azure;
+    text-transform: capitalize;
+        text-shadow: 5px 5px 5px red;
+    margin: 25%;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: italic;
+        font-variation-settings: "ROND";
+}
+
+#font-short-hand {
+    margin: 20px;
+    padding: 15px;
+    border: 5px red solid;
+
+    font: normal small-caps bold 18px fantasy; 
+}
