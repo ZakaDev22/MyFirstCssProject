@@ -1,0 +1,16 @@
+
+
+.haha {
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+    padding: 3em;
+    background-image: linear-gradient(to bottom, #2f7033, transparent);
+}
+
+.Radial {
+     height: 300px;
+     width: 50%;
+     margin:  auto;
+     background-image: radial-gradient(rgb(2, 2, 53),red);
+}

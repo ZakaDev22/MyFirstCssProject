@@ -1,0 +1,30 @@
+
+div {
+    background-color: aqua;
+    width: 200px;
+    height: 600px;
+    margin: auto;
+}
+
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.blue {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.float {
+    border: 2px black solid;
+    margin: 5px;
+    box-shadow: 5px 5px 5px ;
+    float: inline-end;
+}
