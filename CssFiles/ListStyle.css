@@ -1,0 +1,16 @@
+
+ul ,ol {
+    list-style-type: circle;
+    list-style-position: inside;
+    /* list-style-image: ; */
+    border: 3px solid;
+    background-image: url("/Images/img2.jpg");
+}
+
+li {
+    background-color: lavender;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    
+}

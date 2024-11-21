@@ -1,0 +1,26 @@
+
+table {
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    font-size: 2em;
+    border-spacing: 2.5px;
+}
+
+th {
+    background-color: rgb(12, 31, 31);
+        color: rgb(213, 78, 0);
+        text-shadow: 3px 3px 3px rgb(244, 203, 203);
+        text-align: center;
+        height: 50px;
+        border: 2px purple dashed;
+}
+td {
+    background-color: hsla(180, 81%, 53%, 0.2);
+    border: 2px #72d54eb5 solid;
+}
+tfoot {
+    background-color: #892be234;
+    text-align: center;
+}
+
