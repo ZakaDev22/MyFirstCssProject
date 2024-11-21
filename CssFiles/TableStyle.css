@@ -4,16 +4,18 @@ table {
     width: 90%;
     margin: auto;
     font-size: 2em;
-    border-spacing: 2.5px;
+    /* border-spacing: 2.5px; */
+    vertical-align: middle;
+    border-collapse: collapse;
 }
 
 th {
-    background-color: rgb(12, 31, 31);
+    background-color: #67aaaa;
         color: rgb(213, 78, 0);
         text-shadow: 3px 3px 3px rgb(244, 203, 203);
         text-align: center;
         height: 50px;
-        border: 2px purple dashed;
+        border: 2px rgb(0, 0, 0) solid;
 }
 td {
     background-color: hsla(180, 81%, 53%, 0.2);
