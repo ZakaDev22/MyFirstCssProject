@@ -1,0 +1,13 @@
+
+#img {
+    border: 3px solid;
+    position: absolute;
+    bottom: 0;
+}
+#title {
+    border: 3px solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
