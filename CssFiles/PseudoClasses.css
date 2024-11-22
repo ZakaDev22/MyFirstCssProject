@@ -1,0 +1,60 @@
+
+
+
+div {
+    background-color: black;
+    height: 300px;
+    width: 50%;
+    background-size: contain;
+}
+
+div:hover {
+    /* background-color:blue ; */
+    background-image: url("/Images/img3.jpg");
+}
+
+div:active {
+    background-image: url("/Images/img2.jpg");
+    border: 2px solid red;
+}
+
+p:empty {
+    background-color: aquamarine;
+    height: 50px;
+    width: 30%;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+input:disabled {
+    background-color: yellow;
+}
+
+input:required {
+    background-color: yellowgreen;
+}
+
+input:invalid {
+    background-color: #b218187c;
+}
+input:valid {
+    background-color: #6db21f7c;
+}
+
+p::first-letter {
+    font-size: xx-large;
+    color: whitesmoke;
+    background-color: black;
+}
+
+p::first-line{
+    font-family: cursive;
+}
+
+p::selection {
+    background-color: #0000ff8c;
+    color: red;
+}
+
