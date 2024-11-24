@@ -1,0 +1,79 @@
+/* Reset default margins and padding */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* Ensure they take up the full height */
+}
+
+/* Apply the gradient */
+body {
+    background: linear-gradient(to top, #797900, #9292f2);
+    /* Ensures it covers the full viewport */
+    background-repeat: no-repeat;
+    /* Prevents repetition */
+    background-attachment: fixed;
+    /* Keeps the gradient fixed while scrolling */
+}
+
+
+.div1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), #7b2d0077, #727, #000000);
+    width: 50%;
+    height: 300px;
+    transform: translate(50%, 50%);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+
+.div2 {
+    background-color: #838383;
+
+    width: 40%;
+    height: 150px;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    /* transform: scaley(1); */
+    /* transform: rotate(20deg); */
+    /* transform: rotateX(30deg), */
+    transform: rotateY(40deg)
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: no-drop;
+    transition: transform 0.3s ease;
+    /* Smooth effect */
+
+        transform: skew(20deg, 10deg);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    /* Slightly enlarge on hover */
+}
+
+h3 {
+    background-image: linear-gradient(#2626,#7272);
+    border: #000000 solid;
+    margin: 60px 60px;
+    height: 150px;
+    text-align: center;
+    text-decoration: underline red;
+
+    transform: matrix(1,.2,0.7,1,10,10);
+
+}
