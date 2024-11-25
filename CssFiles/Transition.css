@@ -22,7 +22,6 @@
     height: 100px;
     background-image: linear-gradient(#8282,#251);
 
-
     transition: width 2s ease 1s, height 2s ease-in-out, transform 3s ease-in 500ms;
 }
 
