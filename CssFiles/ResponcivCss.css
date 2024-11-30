@@ -1,0 +1,16 @@
+
+body {
+    background-color: #11ee11;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: #1c471c;
+    }
+}
+
+@media print and (min-width:400) and (max-width:600px) {
+    body {
+        background-color: red;
+    }
+}
