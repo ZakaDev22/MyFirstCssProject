@@ -1,4 +1,18 @@
 
+body {
+     padding: 0;
+     margin: 0;
+     height: 100vh;
+}
+
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
+}
 
 .parent {
     background-color: #c5b197;
@@ -6,7 +20,6 @@
     margin: 10px;
     height: 500px;
     display: flex;
-    position: ;
     
     flex-flow: row ;
     justify-content: space-between; 
@@ -25,13 +38,13 @@
 }
 
 .item2 {
-    background-color: rebeccapurple;
+    background-color: var(--main-color);
    
     flex: 1 0 20px;
 }
 
 .item3 {
-    background-color: red;
+    background-color: var(--second-color);
     order: 0;
     flex-grow: 3;
         flex-shrink: 2;

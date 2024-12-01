@@ -1,4 +1,19 @@
 
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
+    --third-color : black;
+}
 
 .parent {
     background-color:plum;
@@ -46,7 +61,7 @@
 }
 .parent .item4 {
        
-    color: aqua;
+    color: var(--third-color);
 
     grid-column: 3/5;
 }

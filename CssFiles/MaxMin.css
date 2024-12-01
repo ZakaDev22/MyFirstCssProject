@@ -1,8 +1,24 @@
 
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: rgba(62, 81, 159, 0.933);
+    --second-color: yellow;
+}
+
 .width {
     width: 350px;
      min-width: 50px;
-    background-color: aqua;
+    background-color: var(--main-color);
+    text-align: center;
 }
 
 .maxwith {

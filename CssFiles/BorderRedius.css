@@ -4,9 +4,19 @@ body {
     background-size: auto;
 }
 
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
+}
+
 .form-test {
 
     background-color: black;
+    background-image: linear-gradient(var(--main-color),var(--second-color));
     height: 500px;
     width: 500px;
 

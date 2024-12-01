@@ -1,11 +1,32 @@
+body {
+    background-image: linear-gradient(#1e1e1e, #e493);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+:root {
+
+    --main-color : blue;
+    --second-color : yellowgreen;
+    --thhird-color : yellow;
+
+}
+
+.main-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .S {
-    color: blue;
+    color: var(--main-color);
 }
 
 .Name {
-    color: blueviolet;
-    border-color: brown;
+    color: var(--thhird-color);
+    border-color: var(--second-color);
     border-radius: 20%;
     border-width: 10px;
     font-size: medium;
@@ -14,9 +35,6 @@
 .form {
     
     background-color: white;
-    filter: 50%
+    height: 500px;
 }
 
-body{
-    background-color: rgb(116, 201, 127);
-}

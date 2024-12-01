@@ -1,4 +1,13 @@
 
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
+}
+
 #Percentage {
     text-align: center;
     padding: 30px;
@@ -15,7 +24,7 @@
     
     0%{
         width: 0;
-        background-color: red;
+        background-color: var(--second-color);
     }
 
     20%{

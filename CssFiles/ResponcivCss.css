@@ -1,8 +1,18 @@
-
 body {
-    background-color: #11ee11;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: magenta;
 }
 
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
+}
 @media screen and (max-width:600px) {
     body {
         background-color: #1c471c;

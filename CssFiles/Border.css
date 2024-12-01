@@ -1,4 +1,12 @@
 
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
+}
 
 h1 {
     border: red 10px solid ;

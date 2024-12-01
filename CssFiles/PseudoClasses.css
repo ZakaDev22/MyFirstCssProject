@@ -1,8 +1,24 @@
 
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
 
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
+    --third-color: black;
+    --four-color: green;
+    --five-color: blue;
+}
 
 div {
-    background-color: black;
+    background-color: var(--third-color);
     height: 300px;
     width: 50%;
     background-size: contain;
@@ -11,6 +27,8 @@ div {
 div:hover {
     /* background-color:blue ; */
     background-image: url("/Images/img3.jpg");
+    background-color: var(--four-color);
+    
 }
 
 div:active {
@@ -25,7 +43,7 @@ p:empty {
 }
 
 input:focus {
-    background-color: aqua;
+    background-color: var(--main-color);
 }
 
 input:disabled {
@@ -46,7 +64,7 @@ input:valid {
 p::first-letter {
     font-size: xx-large;
     color: whitesmoke;
-    background-color: black;
+    background-color: var(--second-color);
 }
 
 p::first-line{

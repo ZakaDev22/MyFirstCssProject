@@ -1,5 +1,38 @@
 
+:root {
+    --main-hight : 100vh;
+    --second-hight : 50vh;
+    --main-width : 100%;
+    --second-width : 50%;
+    --main-color : red;
+    --second-color: yellow;
+}
 
 body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
     background-image: url("../Images/img4.png");
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column-reverse wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image: linear-gradient(#1e1e1e,#f0fe);
+    height: var(--second-hight);
+    width: var(--second-width);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+.tem1 {
+      
 }

@@ -1,4 +1,19 @@
 
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
+}
+
 ul ,ol {
     list-style-type: circle;
     list-style-position: inside;
@@ -8,9 +23,9 @@ ul ,ol {
 }
 
 li {
-    background-color: lavender;
+    background-color: var(--second-color);
     padding: 15px;
     margin: auto;
-    width: 50%;
+    width: var(--second-width);
     
 }

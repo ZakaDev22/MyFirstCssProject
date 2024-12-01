@@ -6,13 +6,19 @@ body {
     min-height: 100vh;
 }
 
-body {
-  background-image: linear-gradient(to top,#1e1e1e,#b42828);
+
+:root {
+    --main-hight: 100vh;
+    --second-hight: 50vh;
+    --main-width: 100%;
+    --second-width: 50%;
+    --main-color: red;
+    --second-color: yellow;
 }
 
 .Container {
     padding: 10px;
-    background-color: yellowgreen;
+    background-color: var(--second-color);
     height: 100%;
 
     display: flex;

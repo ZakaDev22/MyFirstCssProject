@@ -6,6 +6,21 @@
  /* <uniquifier>: Use a unique and descriptive class name */
  /* <roundness>: Use a value from 0 to 100 */
 
+ body {
+     padding: 0;
+     margin: 0;
+     height: 100vh;
+ }
+
+ :root {
+     --main-hight: 100vh;
+     --second-hight: 50vh;
+     --main-width: 100%;
+     --second-width: 50%;
+     --main-color: red;
+     --second-color: yellow;
+ }
+
 .doto-uniquifier {
     text-transform: capitalize;
     text-shadow: 5px 5px 5px red;
@@ -17,7 +32,7 @@
 }
 
 .bokor-regular {
-    border: 5px red dashed;
+    border: 5px var(--main-color) dashed;
     background-color: azure;
     text-transform: capitalize;
         text-shadow: 5px 5px 5px red;
